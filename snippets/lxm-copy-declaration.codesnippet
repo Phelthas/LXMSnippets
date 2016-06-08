@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>copy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassInterfaceMethods</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@property (nonatomic, copy) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1B933AD4-3581-4A61-A1B6-3C4E70DE64CC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>declare a copy variable</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Copy Variable Declaration</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
