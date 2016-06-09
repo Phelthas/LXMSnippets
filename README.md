@@ -20,7 +20,11 @@ float  ->  @property (nonatomic, assign) CGFloat name;
 array  ->  @property (nonatomic, strong) NSArray *name;    
 string  ->  @property (nonatomic, copy) NSString *name;    
     
-delegate  ->  @property (nonatomic, weak) id<xxxDelegate> delegate;    
+delegate  ->  @property (nonatomic, weak) id<xxxDelegate> delegate;  
+    
+在@implementation中    
+@tableView -> tableView常用的几个dataSource和delegate方法    
+
 
 
 # License    
