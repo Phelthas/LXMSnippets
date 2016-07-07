@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@actionSheet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:&lt;#title#&gt; message:&lt;#message#&gt; preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    UIAlertAction *tempAction = [UIAlertAction actionWithTitle:@"default" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [actionSheet addAction:tempAction];
+    
+    UIAlertAction *destructAction = [UIAlertAction actionWithTitle:@"destructive" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [actionSheet addAction:destructAction];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [actionSheet addAction:cancelAction];
+    [&lt;#viewController#&gt; presentViewController:actionSheet animated:YES completion:^{
+    
+}];
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0175FFC4-0741-4E9E-8C1F-2E4CFB75B206</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>a template of ActionSheet</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ActionSheetTemplate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
