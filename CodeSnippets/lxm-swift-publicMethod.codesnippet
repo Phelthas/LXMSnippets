@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazyLoading</string>
+	<string>publicMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = &lt;#code#&gt;;
-    }
-    return _&lt;#name#&gt;;</string>
+	<string>// MARK: - PublicMethod
+extension &lt;#object#&gt; {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BEE1A2D9-7E9F-4808-BEEB-F26A4A91458F</string>
+	<string>315881A4-3CD5-4EBA-8E53-38B84705D75B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Lazy loading</string>
+	<string>Swift PublicMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

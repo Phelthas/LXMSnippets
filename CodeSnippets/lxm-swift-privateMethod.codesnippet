@@ -3,22 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazyLoading</string>
+	<string>privateMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = &lt;#code#&gt;;
+	<string>// MARK: - PrivateMethod
+private extension &lt;#viewController#&gt; {
+    
+    func setupUI() {
+        
+        
     }
-    return _&lt;#name#&gt;;</string>
+    
+    func setupNavigationBar() {
+        
+        
+    }
+    
+    func loadNetworkData() {
+        
+    }
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BEE1A2D9-7E9F-4808-BEEB-F26A4A91458F</string>
+	<string>F7437907-92F0-4A50-B212-62C930842493</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Lazy loading</string>
+	<string>Swift privateMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
