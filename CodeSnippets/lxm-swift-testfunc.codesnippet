@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>unownedself</string>
+	<string>testFunction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[unowned self]</string>
+	<string>// WARNING: - ////////////////////////////////start
+func test() {
+    &lt;#test#&gt;
+}
+// WARNING: - ////////////////////////////////end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CFF218A4-3E60-4046-A07B-CC0971983D57</string>
+	<string>4979E50C-6F3C-4D70-9712-6700AA8F3B5D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift unowned self</string>
+	<string>Swift test function</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
