@@ -3,27 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initView</string>
+	<string>staticfloat</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> override init(frame: CGRect) {
-        super.init(frame: frame)
-        setupUI()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setupUI()
-    }</string>
+	<string>static CGFloat const &lt;#name#&gt; = &lt;#value#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9ECC66BB-116B-4DC8-8EC2-08179CA2A43B</string>
+	<string>ECBB4DDF-B4FE-45E8-879C-931851F5EAEF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SwiftInitView</string>
+	<string>Static CGFloat Declaration</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
