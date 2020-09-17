@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>testcode</string>
+	<string>constantViewHeight</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning testCode------------------------start
-    
-    &lt;#code#&gt;
-
-#warning testCode------------------------end</string>
+	<string>+ (CGFloat)constantViewHeight;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>62CB25A3-6148-43E7-AFF4-02FC277C339A</string>
+	<string>D0F0F715-A037-4088-9ABF-CCCE0179A8B7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create a constantViewHeight method for class</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test Code Warnning</string>
+	<string>constantViewHeight</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>snippetCollectionView</string>
+	<string>collectionViewDataSourceAndDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -32,6 +32,8 @@
 	<string>C5482B71-35AF-4269-80A1-C9C442CE4F78</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>collectionView DataSource and Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>

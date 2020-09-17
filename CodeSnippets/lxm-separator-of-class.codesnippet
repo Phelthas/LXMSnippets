@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>testcode</string>
+	<string>separator of class</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning testCode------------------------start
-    
-    &lt;#code#&gt;
-
-#warning testCode------------------------end</string>
+	<string>#pragma mark ----------------------------------&lt;#name#&gt;----------------------------------</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>62CB25A3-6148-43E7-AFF4-02FC277C339A</string>
+	<string>32D1F845-F6AE-4195-8522-3E949193FF3C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>separator of class</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test Code Warnning</string>
+	<string>separator of class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
