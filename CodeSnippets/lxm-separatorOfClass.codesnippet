@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>unownedself</string>
+	<string>separatorOfClass</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[unowned self]</string>
+	<string>#pragma mark ----------------------------------&lt;#name#&gt;----------------------------------</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>552A57D5-2770-4804-9CE8-C4A43C89D55C</string>
+	<string>AEDA4BC8-BAE5-494C-877A-D56A706F1896</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>separator of class， used in comments</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift unowned self</string>
+	<string>separator of class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>accessibiltyContainer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UIAccessibilityContainer
+
+- (NSArray *)accessibleElements {
+   if (!_accessibleElements || _accessibleElements.count == 0) {
+       _accessibleElements = [[NSMutableArray alloc] init];
+       UIAccessibilityElement *element = [[UIAccessibilityElement alloc] initWithAccessibilityContainer:self];
+       [_accessibleElements addObject:element];
+   }
+   return _accessibleElements;
+}
+
+- (BOOL)isAccessibilityElement {
+   return NO;
+}
+
+- (NSInteger)accessibilityElementCount {
+   return [[self accessibleElements] count];
+}
+
+- (id)accessibilityElementAtIndex:(NSInteger)index {
+   return [[self accessibleElements] objectAtIndex:index];
+}
+
+- (NSInteger)indexOfAccessibilityElement:(id)element {
+   return [[self accessibleElements] indexOfObject:element];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E141CBF0-5E19-4C27-8FDD-D26C24E25044</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AccessibiltyContainer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
