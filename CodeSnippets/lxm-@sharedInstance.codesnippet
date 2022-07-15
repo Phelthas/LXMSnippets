@@ -3,35 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initUIView</string>
+	<string>sharedInstance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setupUI];
-    }
-    return self;
-}
-
-- (void)setupUI {
-    
-}
-</string>
+	<string>+ (instancetype)sharedInstance {
+    static dispatch_once_t onceToken;
+    static &lt;#className#&gt; *_sharedInstance = nil;
+    dispatch_once(&amp;onceToken, ^{
+        _sharedInstance = [[&lt;#className#&gt; alloc] init];
+    });
+    return _sharedInstance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B90692D-4E0F-4A8D-B305-E7D7F82CDCD2</string>
+	<string>80100F8E-49FB-411B-A11E-271F97598AA9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>initUIView</string>
+	<string>sharedInstance Declaration</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
